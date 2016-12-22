@@ -29,8 +29,12 @@ body {
     float: right;
 }
 
-.contacts li,
-a {
+.contacts li {
+    padding-bottom: 1px;
+}
+
+.contacts a,
+.contacts li:first-child {
     color: #5aaec2;
     font-size: 13px;
     text-decoration: none;
@@ -52,14 +56,11 @@ a {
     width: 49px;
     height: 55px;
     margin: 0 auto 5px;
-    font-size: 11px;
-    overflow: hidden;
-}
-
-.contries a {
     color: #5aaec2;
-    font-size: 10px;
+    font-size: 11px;
+    text-align: center;
     text-decoration: underline;
+    overflow: hidden;
 }
 
 .promo-image {
