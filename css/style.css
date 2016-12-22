@@ -45,6 +45,8 @@ body {
 }
 
 .contries {
+    width: 333px;
+    height: 64px;
     margin-top: 31px;
     margin-right: 30px;
     float: right;
@@ -57,7 +59,7 @@ body {
     height: 55px;
     margin: 0 auto 5px;
     color: #5aaec2;
-    font-size: 11px;
+    font-size: 9px;
     text-align: center;
     text-decoration: underline;
     overflow: hidden;
@@ -89,6 +91,7 @@ body {
     display: block;
     color: #fff;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .submenu {
