@@ -26,22 +26,25 @@ body {
 
 .contacts {
     height: 71px;
-    margin: 17px 23px 0 11px;
+    margin: 15px 41px 0 22px;
+    padding-top: 3px;
     float: right;
 }
 
-.contacts li {
-    padding-bottom: 1px;
+.contacts span {
+    display: block;
+    text-align: left;
 }
 
-.contacts a,
-.contacts li:first-child {
+.contacts a {
     color: #5aaec2;
-    font-size: 13px;
+    font-size: 11px;
     text-decoration: none;
 }
 
-.contacts li:first-child {
+.contacts span:first-child {
+    color: #5aaec2;
+    font-size: 12px;
     font-weight: bolder;
 }
 
@@ -83,7 +86,7 @@ body {
 .top-menu > li {
     display: inline-block;
     position: relative;
-    margin-top: 4px;
+    margin-top: 1px;
     margin-left: 67px;
     float: left;
 }
