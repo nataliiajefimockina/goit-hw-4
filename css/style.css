@@ -1,5 +1,6 @@
 body {
-    background: url('../img/background.jpg');
+    background-image: url('../img/bg.jpg');
+    background-repeat: repeat-x;
 }
 
 .wrapper {
@@ -44,7 +45,7 @@ body {
     font-weight: bolder;
 }
 
-.contries {
+.countries {
     width: 333px;
     height: 64px;
     margin-top: 31px;
@@ -53,7 +54,7 @@ body {
     clear: right;
 }
 
-.contries li {
+.countries li {
     display: inline-block;
     width: 49px;
     height: 55px;
@@ -97,7 +98,7 @@ body {
 .submenu {
     display: none;
     position: absolute;
-    top: 29px;
+    top: 23px;
     left: -10px;
     width: 150px;
     border-top: 1px solid #000;
