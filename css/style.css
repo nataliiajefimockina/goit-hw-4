@@ -75,24 +75,12 @@ body {
 }
 
 .top-menu {
-    display: block;
     position: relative;
     width: 1000px;
     height: 27px;
-    float: left;
-    clear: left;
     border-bottom: 1px solid #000;
     background: linear-gradient(to top, #2e2e2e 0%, #444 100%);
     box-shadow: 0 5px 5px 1px #424243;
-}
-
-.top-menu > li {
-    display: inline-block;
-    position: relative;
-    margin-top: 1px;
-    margin-left: 58px;
-    text-align: center;
-    /*float: left;*/
 }
 
 .top-menu a {
@@ -102,20 +90,27 @@ body {
     text-decoration: none;
 }
 
+.top-menu > li {
+    display: inline-block;
+    position: relative;
+    height: 26px;
+    margin-left: 58px;
+    text-align: center;
+}
+
+.top-menu li:hover {
+    background-color: transparent;
+}
+
 .submenu {
     display: none;
     position: absolute;
     top: 24px;
     left: -10px;
     width: 150px;
-    border-top: 1px solid #000;
     background: linear-gradient(to top, #2e2e2e 0%, #444 100%);
     box-shadow: 0 5px 5px 1px #424243;
-}
-
-.submenu > li {
-    display: block;
-    margin: 0;
+    z-index: 10;
 }
 
 .submenu > li > a {
@@ -132,7 +127,7 @@ body {
 
 .content {
     height: 545px;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .information {
